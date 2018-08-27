@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary" childDivider="@android:color/transparent">@color/colorPrimary</item>
+        <item name="colorPrimaryDark" childDivider="@android:color/transparent">@color/colorPrimaryDark</item>
+        <item name="colorAccent" childDivider="@android:color/transparent">@color/colorAccent</item>
+    </style>
+
+</resources>

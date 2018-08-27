@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/within_textview"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="0dp"
+        android:layout_weight="1"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:paddingLeft="0dp"
+        android:src="@drawable/heart_blackborder" />
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/placeName"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="left"
+            android:descendantFocusability="blocksDescendants"
+            android:focusable="false"
+            android:text="niHao"
+            android:textColor="#000000"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/locationName"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="left"
+            android:descendantFocusability="blocksDescendants"
+            android:focusable="false"
+            android:text="Hello"
+            android:textColor="#CDCDCD"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/heartImage"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:paddingTop="20dp"
+        android:src="@drawable/heart_blackborder" />
+
+</LinearLayout>
